@@ -1,0 +1,73 @@
+:root {
+  /*Serperior*/
+  --darkestgreen: #0a2f1c;
+  --darkergreen: #107339;
+  --green: #41ae63;
+  --lightgreen: #9cd59c;
+  --darkyellow: #d59c08;
+  --yellow: #ffcd29;
+  --grey: #e3e3e3;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: left;
+  background-color: var(--lightgreen);
+  color: var(--darkyellow);
+  justify-items: auto;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: 20px;
+}
+nav a {
+  color: #0a2f1c;
+  margin-left: 10px;
+  text-decoration: none;
+}
+#secret-nav {
+  color: var(--lightgreen);
+  border: none;
+}
+#secret-nav:hover {
+  color: var(--darkestgreen);
+}
+body {
+  background-color: grey;
+}
+h1,
+h2,
+h3 {
+  color: aliceblue;
+  text-decoration: underline green;
+}
+
+p {
+  color: #d59c08;
+}
+.paleta-cores {
+  background-color: aliceblue;
+  display: grid;
+  max-width: 700px;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  gap: 1rem;
+  padding: 20px;
+  margin: 10px;
+}
+
+.cor-quadro {
+  aspect-ratio: 1; /* mantém quadrados perfeitos */
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  border-radius: 8px;
+  border: black solid 3px;
+}
+.color-palate-grid{
+    display: grid;
+    grid-template-columns: 750px auto;
+}

@@ -1,0 +1,69 @@
+:root {
+  /*Serperior*/
+  --darkestgreen: #0a2f1c;
+  --darkergreen: #107339;
+  --green: #41ae63;
+  --lightgreen: #9cd59c;
+  --darkyellow: #d59c08;
+  --yellow: #ffcd29;
+  --eye: #e47000;
+  --grey: #e3e3e3;
+  --white: #ffffff;
+  /* Shiny Serperior*/
+  --darkest: #000000;
+  --darker: #2a454d;
+  --blue: #437895;
+  --folha: #5d9f42;
+  --lime: #ace166;
+  --eye2: #e02400;
+  --pastelgreen: #d7e3bb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: left;
+  background-color: var(--lightgreen);
+  color: var(--darkyellow);
+  justify-items: auto;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+#nav-serp {
+  max-width: 65px;
+}
+nav a {
+  padding: 10px;
+  color: #0a2f1c;
+  margin-left: 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: var(--darkyellow);
+}
+#secret-nav {
+  color: var(--lightgreen);
+  border: none;
+}
+#secret-nav:hover {
+  color: var(--darkestgreen);
+}
+body {
+  background-color: var(--darkergreen);
+}
+h1,
+h2,
+h3 {
+  color: aliceblue;
+  text-decoration: underline green;
+}
+
+p {
+  color: #d59c08;
+}
+.hero-img {
+  max-width: 1580px;
+}
