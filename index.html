@@ -5,25 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/script.js"></script>
     <title>Project Nico</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <h1><img id="nav-serp" src="images/497.gif" alt="Serperior gif" title="the coolest starter!">Project Nico
-            </h1>
-            <a href="index.html">Home</a> <a href="pkmn.html">PKMN Database</a><a href="game-recommendations.html">Fave
-                Games!</a>
-            <a href="names.html">Names</a>
+            <div class="nav-main">
+                <h1><img id="nav-icon" src="images/497.gif" alt="An Icon of the pokémon "
+                        title="the coolest starter!">Project Nico
+                </h1>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a> <a href="pkmn.html">PKMN Database</a><a
+                    href="game-recommendations.html">Fave
+                    Games!</a>
+                <a href="names.html">Names</a>
+            </div>
             <div style="margin-left: auto;"></div><a id="secret-nav" href="demo.html"
                 title="Secret test area!!!">Demo</a>
         </nav>
     </header>
     <main>
+        <select id="mode-switcher">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="179">179</option>
+            <option value="494">494</option>
+            <option value="497">497</option>
+            <option value="677">677</option>
+        </select>
 
         <div id="hero">
-
             <img class="hero-img" src="images/forest.jpg" alt="">
         </div>
         <h2>Welcome to Project Nico</h2>
